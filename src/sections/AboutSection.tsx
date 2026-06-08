@@ -27,7 +27,7 @@ const carouselImages = [
   'zoomed_in_kevin_teaching.jpeg',
 ];
 
-const assetBase = 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets';
+const assetBase = 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets';
 
 export function AboutSection() {
   const [activeIndex, setActiveIndex] = useState(0);

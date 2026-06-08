@@ -119,7 +119,7 @@ export function Navigation() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <img
-              src="https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/logo.png"
+              src="https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/logo.png"
               alt="Bit by Bit Logo"
               className="w-8 h-8 rounded-lg object-cover"
             />
