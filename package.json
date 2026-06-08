@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "packageManager": "pnpm@11.5.2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
