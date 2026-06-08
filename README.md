@@ -11,20 +11,21 @@ Official website for Bit by Bit Coding, built with React + TypeScript + Vite + T
 ## Development
 
 ```bash
-npm ci
-npm run dev
+corepack enable
+pnpm install
+pnpm run dev
 ```
 
 Build:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 Lint:
 
 ```bash
-npm run lint
+pnpm run lint
 ```
 
 ## Current pages
@@ -64,4 +65,4 @@ npm run lint
 
 ## Deployment
 
-GitHub Actions workflow (`.github/workflows/deploy.yml`) builds with `npm ci` + `npm run build` and deploys `dist/` to GitHub Pages.
+GitHub Actions workflow (`.github/workflows/deploy.yml`) builds with `pnpm install --frozen-lockfile` + `pnpm run build` and deploys `dist/` to GitHub Pages.
