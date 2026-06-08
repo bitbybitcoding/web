@@ -16,7 +16,7 @@ const fonts = [
 ];
 
 const logoUrl =
-  'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/logo.png';
+  'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/logo.png';
 
 export function PressPage() {
   return (
