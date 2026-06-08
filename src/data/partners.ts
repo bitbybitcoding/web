@@ -6,7 +6,7 @@ export interface Partner {
   color: string;
 }
 
-const assetBase = 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets';
+const assetBase = 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets';
 
 export const mainPartner: Partner = {
   name: 'BAGUS Together',
@@ -88,6 +88,30 @@ export const keyPartners: Partner[] = [
       "Dibs is a booking service company with agent integrations that allows for quick and seamless bookings. As bookings partner, they provide our event management software.",
     logo: `${assetBase}/dibs.png`,
     website: 'https://www.usedibs.com',
+    color: 'from-bit-turquoise to-bit-green',
+  },
+  {
+    name: 'Club Rainbow',
+    description:
+      "Club Rainbow is an independent charity that works with children with chronic illnesses. They partner with BbB to deliver fun coding sessions to their beneficiaries.",
+    logo: `${assetBase}/clubrainbow.webp`,
+    website: 'https://www.clubrainbow.org',
+    color: 'from-bit-lavender to-bit-turquoise',
+  },
+  {
+    name: "SG Social Support",
+    description:
+      "SG Social Support is a portal for groundups, charities and organisations looking to do good. BbB is proud to be a listed groundup.",
+    logo: `${assetBase}/sgsocialsupport.png`,
+    website: 'https://sgsocialsupport.com/receive',
+    color: 'from-bit-red to-bit-lavender',
+  },
+  {
+    name: 'The Changemakers Guild',
+    description:
+      "The Changemakers Guild is an initiative by Soristic and SG Social Impact to foster a community of changemakers who do meaningful work for society together. BbB is a proud member of the guild.",
+    logo: `${assetBase}/changemakersguild.jpeg`,
+    website: 'https://sgsocialsupport.com/announcement/X276RRMnTbA',
     color: 'from-bit-turquoise to-bit-green',
   },
 ];
