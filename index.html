@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function () {
+        // Only redirect if coming from the old GitHub Pages domain.
+        // Preserve the full path — do NOT convert to hash routes.
+        if (window.location.hostname === 'bitbybitcoding.github.io') {
+          var path = window.location.pathname + window.location.search + window.location.hash;
+          window.location.replace('https://bbbcoding.vercel.app' + path);
+        }
+        // If someone somehow has a legacy /#/path bookmark, clean it up.
+        else if (window.location.hash.startsWith('#/')) {
+          window.location.replace(window.location.hash.slice(1));
+        }
+      })();
+    </script>
+    <meta name="description" content="Bit by Bit Coding - Free, structured, multi-year coding pathways for Singaporean youth aged 10-18. Learn Python, AI/ML, and more." />
+    <meta name="theme-color" content="#8C52FF" />
+    <meta property="og:title" content="Bit by Bit Coding" />
+    <meta property="og:description" content="Free, structured coding education for Singaporean youth." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bbbcoding.vercel.app" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bit by Bit Coding" />
+    <meta name="twitter:description" content="Free, structured coding education for Singaporean youth." />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/logo.png" />
+    <link rel="canonical" href="https://bbbcoding.vercel.app" />
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/logo.png" />
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/logo.png" />
+    
+    <!-- Google Consent Mode (Default to denied) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      
+      // Set default consent to denied
+      gtag('consent', 'default', {
+        'analytics_storage': 'denied',
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied'
+      });
+      
+      gtag('js', new Date());
+      gtag('config', 'G-2F9M7WG6X9');
+    </script>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2F9M7WG6X9"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Bit by Bit Coding - Opening the doors to coding education for every youth</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

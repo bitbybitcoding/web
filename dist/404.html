@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/logo.png" />
+    <title>Bit by Bit Coding</title>
+    <script>
+      (function () {
+        // If someone lands on a hash-based legacy URL (e.g. /#/partners),
+        // strip the hash and redirect to the clean path (/partners).
+        var hash = window.location.hash;
+        if (hash.startsWith('#/')) {
+          var cleanPath = hash.slice(1); // e.g. "/partners"
+          window.location.replace(cleanPath);
+        } else {
+          // Not a legacy hash route — redirect to home and let
+          // React Router's <Route path="*"> show the 404 page.
+          window.location.replace('/');
+        }
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
