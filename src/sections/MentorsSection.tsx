@@ -34,8 +34,8 @@ const mentors = [
   {
     name: 'Brian Lim',
     role: 'VP, COO & Co-Founder; Ex-Computing @ VJC',
-    image: 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/brian_profile.jpeg',
-    quote: "I've always believed that the best way to master a craft is ton share it. BbB is my creative space where technical expertise meets my love for inspiring others.",
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/brian_profile.jpeg',
+    quote: "I've always believed that the best way to master a craft is to share it. BbB is my creative space where technical expertise meets my love for inspiring others.",
     expertise: ['Python', 'ML'],
     borderColor: 'border-t-bit-turquoise',
     roleColor: 'text-teal-600 dark:text-teal-400',
@@ -44,7 +44,7 @@ const mentors = [
   {
     name: 'Pratik Ghosh',
     role: 'Head of Curriculum; Ex-CS @ SP',
-    image: 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/pratik_profile.jpeg',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/pratik_profile.jpeg',
     quote: "Knowledge is like power — it grows the more you share it.",
     expertise: ['Python', 'AI'],
     borderColor: 'border-t-bit-red',
@@ -54,7 +54,7 @@ const mentors = [
   {
     name: 'Yixiang Fan',
     role: 'Head of Python; Ex-Computing @ HCI',
-    image: 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/yixiang_profile.jpeg',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/yixiang_profile.jpeg',
     quote: "I enjoy the moment when I get the desired output, when the countless hours spent working and remedying the code proved to be worth it.",
     expertise: ['Python', 'SQL'],
     borderColor: 'border-t-bit-green',
@@ -64,8 +64,8 @@ const mentors = [
   {
     name: 'Papangkorn Wangchochedkun',
     role: 'Head of Curriculum and AI/ML; CS @ NUS',
-    image: 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/pann_profile.jpeg',
-    quote: "Just a guy who emjoys algorithmic problem solving.",
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/pann_profile.jpeg',
+    quote: "Just a guy who enjoys algorithmic problem solving.",
     expertise: ['Python', 'AI'],
     borderColor: 'border-t-bit-lavender',
     roleColor: 'text-purple-600 dark:text-purple-400',
@@ -74,7 +74,7 @@ const mentors = [
   {
     name: 'Raghav Sriram',
     role: 'Python, Robotics and Quantum Computing; Ex-Computing @ VJC',
-    image: 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/raghav_profile.jpeg',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/raghav_profile.jpeg',
     quote: "Quantum Computing Researcher & Hardware Security Engineer who loves Monster Energy, motorbikes and lockpicking.",
     expertise: ['C++', 'Cybersecurity'],
     borderColor: 'border-t-bit-turquoise',
@@ -84,7 +84,7 @@ const mentors = [
   {
     name: 'Apicha Maneerat',
     role: 'Python; Maths & CS @ NUS',
-    image: 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/suki_profile.jpeg',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/suki_profile.jpeg',
     quote: "The most elegant solutions in computer science and life are often the simplest. I want to help every student grasp how technology truly works, so they can find the simple path to solving any challenge.",
     expertise: ['Python', 'Algorithms'],
     borderColor: 'border-t-bit-red',
@@ -94,7 +94,7 @@ const mentors = [
   {
     name: 'Neil Bhandari',
     role: 'Python; Ex-Computing @ VJC',
-    image: 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/neil_profile.jpeg',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/neil_profile.jpeg',
     quote: "Building great tech isn't just about code; it's about solving real user problems. I help students see the big picture.",
     expertise: ['Python', 'ML'],
     borderColor: 'border-t-bit-green',
@@ -104,7 +104,7 @@ const mentors = [
   {
     name: 'Ashton Too',
     role: 'Python; Ex-Computing @ VJC',
-    image: 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/ashton_profile.jpeg',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/ashton_profile.jpeg',
     quote: "Building games is my cup of tea. I look forward to sharing my knowledge in it.",
     expertise: ['Python', 'C#'],
     borderColor: 'border-t-bit-lavender',
@@ -114,7 +114,7 @@ const mentors = [
   {
     name: 'Nicholas Yeo',
     role: 'Python; Ex-Computing @ VJC',
-    image: 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/nicholas_profile.jpeg',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/nicholas_profile.jpeg',
     quote: "never played tag because I knew I was it",
     expertise: ['Python', 'AI'],
     borderColor: 'border-t-bit-turquoise',
@@ -124,7 +124,7 @@ const mentors = [
   {
     name: 'Kevin Chua',
     role: 'Python; Ex-Computing @ VJC',
-    image: 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/kevin_profile.jpeg',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/kevin_profile.jpeg',
     quote: "Computing doesn't have to always be a boring 6-7 hour long lecture to sit through, with me it'll be fun!",
     expertise: ['Python', 'SQL'],
     borderColor: 'border-t-bit-red',
@@ -134,7 +134,7 @@ const mentors = [
   {
     name: 'Chee Heng Seow',
     role: 'Python; Ex-Computing @ HCI',
-    image: 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/cheeheng_profile.jpeg',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/cheeheng_profile.jpeg',
     quote: "I want to share my love for coding, and inspire the next batch to make their communities a better place.",
     expertise: ['Python', 'AI'],
     borderColor: 'border-t-bit-green',
@@ -144,7 +144,7 @@ const mentors = [
   {
     name: 'Joel Lim',
     role: 'Python; Ex-Cybersecurity @ NYP',
-    image: 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/joel_profile.jpeg',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/joel_profile.jpeg',
     quote: "Programming is the closest thing we have to real-world magic; I tutor because I want to help more people learn how to cast the spells.",
     expertise: ['Python', 'Security'],
     borderColor: 'border-t-bit-lavender',
@@ -154,7 +154,7 @@ const mentors = [
   {
     name: 'Renae Gan',
     role: 'C and C#; Engineering @ NP',
-    image: 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/renae_profile.jpeg',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/renae_profile.jpeg',
     quote: "Through teaching others how to code, I hope that I can provide the opportunity for students to derive satisfaction from seeing their code work wonders for them!",
     expertise: ['C#', 'SQL'],
     borderColor: 'border-t-bit-turquoise',
@@ -164,7 +164,7 @@ const mentors = [
   {
     name: 'Boon How Low',
     role: 'Python; AI For Science @ NTU',
-    image: 'https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/boonhow_profile.jpeg',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/boonhow_profile.jpeg',
     quote: "Just tinkering through life, and enjoying the process of creating the most random things possible.",
     expertise: ['AI', 'ML'],
     borderColor: 'border-t-bit-red',

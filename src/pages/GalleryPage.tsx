@@ -13,7 +13,7 @@ const eventImages = [
   'wework_class_frombackright2_term1.jpeg',
   'scape_class_pannteachingzoomed_term1.jpeg',
   'wework_class_pratikteachingzoomed_term1.jpeg',
-  'csm_class_frombackleft_term1.jpeg,
+  'csm_class_frombackleft_term1.jpeg',
   'bootcamp_photo.jpeg',
   'kevin_teaching.jpeg',
   'suki_teaching_whiteboard.jpeg',

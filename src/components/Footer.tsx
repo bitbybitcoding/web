@@ -23,7 +23,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <img
-                src="https://raw.githubusercontent.com/bitbybitcoding/bitbybitcoding.github.io/main/.github/assets/logo.png"
+                src="https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/logo.png"
                 alt="Bit by Bit Logo"
                 width="32"
                 height="32"
