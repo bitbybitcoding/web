@@ -29,10 +29,10 @@ jobs:
           cache: 'pnpm'
 
       - name: Install dependencies
-        run: corepack enable && pnpm install --frozen-lockfile
+        run: corepack pnpm install --frozen-lockfile
 
       - name: Build
-        run: pnpm run build
+        run: corepack pnpm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
