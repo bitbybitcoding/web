@@ -262,12 +262,12 @@ export function BlogPostPage() {
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://bitbybitcoding.github.io"
+                    href="https://www.bbbcoding.org"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 text-bit-lavender hover:text-bit-red transition-colors font-medium"
                   >
-                    bitbybitcoding.github.io
+                    www.bbbcoding.org
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
