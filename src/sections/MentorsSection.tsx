@@ -171,6 +171,26 @@ const mentors = [
     roleColor: 'text-red-600 dark:text-red-400',
     overlayColor: 'from-bit-red/40',
   },
+  {
+    name: 'Katherine Dam',
+    role: 'Python; Computing @ VJC',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/katherine_profile.jpeg',
+    quote: "I enjoy seeing how motivated people are when programming, and I want to show others how fun coding can be.",
+    expertise: ['Python', 'C++'],
+    borderColor: 'border-t-bit-green',
+    roleColor: 'text-green-600 dark:text-green-400',
+    overlayColor: 'from-bit-green/40',
+  },
+  {
+    name: 'Ju Nin Chong',
+    role: 'Python; Computing @ VJC',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/junin_profile.jpeg',
+    quote: "I wish to inspire students who were once like me as a beginner in coding, and give them the same encouragement that helped me grow into someone passionate about technology.",
+    expertise: ['Python', 'Robotics'],
+    borderColor: 'border-t-bit-lavender',
+    roleColor: 'text-purple-600 dark:text-purple-400',
+    overlayColor: 'from-bit-lavender/40',
+  },
 ];
 
 export function MentorsSection() {
