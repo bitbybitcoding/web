@@ -191,6 +191,16 @@ const mentors = [
     roleColor: 'text-purple-600 dark:text-purple-400',
     overlayColor: 'from-bit-lavender/40',
   },
+  {
+    name: 'Jace Han',
+    role: 'Python; Data Scientist @ NHG',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/jace_profile.jpeg',
+    quote: "Every curious mind deserves a shot. I can't wait to see students go from 'I can't...' to 'I built this!'.",
+    expertise: ['AI', 'ML'],
+    borderColor: 'border-t-bit-turquoise',
+    roleColor: 'text-teal-600 dark:text-teal-400',
+    overlayColor: 'from-bit-turquoise/40',
+  },
 ];
 
 export function MentorsSection() {
