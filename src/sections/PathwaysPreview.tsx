@@ -8,7 +8,7 @@ const pathways = [
     title: 'Python',
     description: 'The perfect starting point. Learn programming logic, syntax, and build your first applications.',
     status: 'active',
-    ageRange: 'Ages 10-18',
+    ageRange: 'Ages 13+',
     duration: '12 Weeks',
     color: 'from-blue-500 to-blue-600',
     shadowColor: 'shadow-blue-500/30',
