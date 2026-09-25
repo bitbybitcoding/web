@@ -66,15 +66,16 @@ export function ApplicationPage() {
             {/* Tally Form Embed - Add wrapper for better visibility */}
             <div className="flex-grow bg-white rounded-xl p-4">
               <iframe 
-                data-tally-src="https://tally.so/embed/pbQgXP?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" 
+                data-tally-src="https://tally.so/embed/pbQgXP?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" 
+                loading="lazy" 
                 width="100%" 
-                height="2198" 
-                frameborder="0" 
-                marginheight="0" 
-                marginwidth="0" 
+                height="1950" 
+                frameBorder="0" 
+                marginHeight={0} 
+                marginWidth={0} 
                 title="Bit by Bit Coding Term 3 — Register"
+                className="w-full"
                 ></iframe>
-<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
             </div>
 
             <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-bit-lavender/10 dark:from-bit-lavender/5 to-transparent rounded-bl-full pointer-events-none"></div>
