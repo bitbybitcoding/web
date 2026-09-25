@@ -126,7 +126,7 @@ export function ApplicationPage() {
                 </h4>
                 <p className="text-sm text-white/90 leading-relaxed">
                   Our next Python cohort starts{' '}
-                  <span className="text-white font-bold border-b border-white/50">July 18th</span>. 
+                  <span className="text-white font-bold border-b border-white/50">November 21st</span>. 
                   Slots are limited to ensure quality mentorship ratios.
                 </p>
               </div>
