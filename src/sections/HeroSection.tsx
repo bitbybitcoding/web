@@ -10,7 +10,7 @@ export function HeroSection() {
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/70 dark:bg-gray-800/70 border border-bit-lavender/30 dark:border-bit-lavender/50 mb-8 shadow-sm">
           <span className="w-2 h-2 rounded-full bg-bit-red animate-pulse"></span>
           <span className="text-xs font-bold text-bit-lavender uppercase tracking-wider">
-            Python Language & Application Cohort Open
+            Python Beginner to Intermediate Cohort Open
           </span>
         </div>
 
@@ -24,7 +24,7 @@ export function HeroSection() {
 
         {/* Subheadline */}
         <p className="text-lg md:text-xl lg:text-2xl text-bit-dark/70 dark:text-gray-300 max-w-3xl mb-10 font-body leading-relaxed">
-          Free, structured, multi-year coding pathways for youths aged 10-18. 
+          Free, structured, multi-year coding pathways for youths aged 13-22. 
           Advanced, structured and highly innovative curriculum.
         </p>
 
