@@ -214,7 +214,7 @@ export function ChildPolicy() {
               <div className="p-5 rounded-2xl bg-bit-turquoise/5 dark:bg-cyan-900/20 border border-bit-turquoise/20 dark:border-cyan-900/40 mb-5">
                 <p className="text-sm font-bold text-bit-dark dark:text-white mb-1">Current CPO</p>
                 <p className="text-sm text-bit-dark/70 dark:text-gray-400 mb-2">The President of BbB, unless another ExCo member is formally designated in writing.</p>
-                <p className="text-sm text-bit-dark/70 dark:text-gray-400">Contact: <a href="mailto:info@bbbcoding.org" className="text-bit-lavender hover:text-bit-red transition-colors">info@bbbcoding.org</a></p>
+                <p className="text-sm text-bit-dark/70 dark:text-gray-400">Contact: <a href="mailto:cpo@bbbcoding.org" className="text-bit-lavender hover:text-bit-red transition-colors">cpo@bbbcoding.org</a></p>
               </div>
               <div className="flex flex-col gap-3">
                 <div className="p-4 rounded-xl bg-orange-50 dark:bg-orange-900/20 border border-orange-200 dark:border-orange-800">
