@@ -201,6 +201,16 @@ const mentors = [
     roleColor: 'text-teal-600 dark:text-teal-400',
     overlayColor: 'from-bit-turquoise/40',
   },
+  {
+    name: 'Jerry Wang',
+    role: 'Python; Computing @ VJC',
+    image: 'https://raw.githubusercontent.com/bitbybitcoding/web/main/.github/assets/Jerry_profile.jpeg',
+    quote: "It’s okay not to know the answer. What matters is having the courage to find it.",
+    expertise: ['C++', 'Algorithms'],
+    borderColor: 'border-t-bit-red',
+    roleColor: 'text-red-600 dark:text-red-400',
+    overlayColor: 'from-bit-red/40',
+  },
 ];
 
 export function MentorsSection() {
