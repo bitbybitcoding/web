@@ -114,6 +114,30 @@ export const keyPartners: Partner[] = [
     website: 'https://sgsocialsupport.com/announcement/X276RRMnTbA',
     color: 'from-bit-turquoise to-bit-green',
   },
+  {
+    name: 'Ismaili CIVIC',
+    description:
+      "As venue and programme partner, Ismaili CIVIC ensures that youths from the Geylang and Aljunied areas will always have access to our coding programmes.",
+    logo: `${assetBase}/Ismaili.jpeg`,
+    website: 'https://the.ismaili/',
+    color: 'from-bit-lavender to-bit-turquoise',
+  },
+  {
+    name: "Hub with a Heart @ Serangoon",
+    description:
+      "Hub With A Heart @ Serangoon is a youth hangout, study, and community space in Serangoon Central Village for youths aged 13 to 35. As venue partner, they help bring our programmes to youths from the North.",
+    logo: `${assetBase}/HWAH.png`,
+    website: 'https://www.touch.org.sg/get-assistance/children-youth-and-families/youth/youth-community-outreach-and-mentoring.html',
+    color: 'from-bit-red to-bit-lavender',
+  },
+  {
+    name: 'Buona Vista Zone D RN',
+    description:
+      "As venue partner, BV Zone D RN ensures that youths from the Buona Vista and Jurong regions will always have access to our coding programmes.",
+    logo: `${assetBase}/BV Zone D RN.jpeg`,
+    website: 'https://pa.gov.sg',
+    color: 'from-bit-turquoise to-bit-green',
+  },
 ];
 
 export const supportingPartners: Partner[] = [
@@ -159,6 +183,14 @@ export const governmentPartners: Partner[] = [
     logo: `${assetBase}/msf.png`,
     website: 'https://www.msf.gov.sg',
     color: 'from-bit-red to-bit-lavender',
+  },
+  {
+    name: "People's Association",
+    description:
+      "The People's Association (PA) is an agency that promotes racial harmony, social cohesion, and community participation while acting as a bridge between the government and residents under MCCY. They support our programmes via their network of community centres and resident spaces.",
+    logo: `${assetBase}/PA Logo.avif`,
+    website: 'https://pa.gov.sg',
+    color: 'from-bit-lavender to-bit-turquoise',
   },
 ];
 
